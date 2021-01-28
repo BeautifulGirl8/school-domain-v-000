@@ -27,5 +27,3 @@ end
 
 puts school
 end
-
-
