@@ -25,4 +25,3 @@ self.roster.each do |grade, students|
 end
 
 end
-
