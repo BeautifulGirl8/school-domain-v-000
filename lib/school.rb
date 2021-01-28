@@ -25,5 +25,4 @@ self.roster.each do |grade, students|
   students.sort!
 end
 
-puts school
 end
