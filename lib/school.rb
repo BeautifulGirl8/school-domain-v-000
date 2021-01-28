@@ -1,6 +1,5 @@
 class School
 
-
 attr_reader :name, :roster
 
  def initialize(name)
@@ -26,4 +25,4 @@ self.roster.each do |grade, students|
 end
 
 end
-end
+
