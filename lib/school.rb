@@ -5,7 +5,7 @@ attr_reader :name, :roster
 
  def initialize(name)
  @name = name
- @roster= Hash.new { |h, k| h[k] = []}
+ @roster= Hash.new #{ |h, k| h[k] = []}
  end
 
 def roster
@@ -25,4 +25,5 @@ self.roster.each do |grade, students|
   students.sort!
 end
 
+end
 end
